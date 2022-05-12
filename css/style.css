@@ -1,0 +1,220 @@
+@font-face {
+    src: url(../fonts/Inter-UI-Bold.otf);
+    font-family: inter-ui-bold;
+}
+
+@font-face {
+    src: url(../fonts/Inter-UI-Medium.otf);
+    font-family: inter-ui-medium;
+}
+
+@font-face {
+    src: url(../fonts/Inter-UI-Regular.otf);
+    font-family: inter-ui-regular;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    box-sizing: border-box;
+}
+
+body {}
+
+a {
+    text-decoration: none;
+
+}
+
+
+/* hero section start  */
+#hero {
+    background-image: url(../images/hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 0 720px;
+    background-position-y: -30px;
+
+}
+
+.hero_content {}
+
+.hero_content h1 {
+    font-family: inter-ui-bold;
+    font-size: 60px;
+    margin-bottom: 70px;
+}
+
+.hero_content h1 span {
+    color: #0061f2;
+}
+
+/* hero section end */
+
+
+/* about us section start */
+#about_us {
+    margin-top: -470px;
+}
+
+.about_head {}
+
+.about_head h2 {
+    font-family: inter-ui-bold;
+    font-size: 45px;
+    color: #0061f2;
+}
+
+.about_head p {
+    font-family: inter-ui-regular;
+    font-size: 26px;
+}
+
+.single_about {
+    text-align: center;
+    padding: 30px 40px;
+    margin-top: 20px;
+}
+
+.single_about img {
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    padding: 20px;
+
+}
+
+.single_about p {
+    font-family: inter-ui-regular;
+    font-size: 22px;
+    margin-top: 30px;
+
+}
+
+.single_about p a:hover {
+    text-decoration: none !important;
+}
+
+.wrapper {
+    background-color: #ffffff;
+    padding: 50px;
+    border-radius: 20px;
+    width: 90%;
+    margin: 0 auto;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* about us section end */
+
+/* introduction sectioin start  */
+
+#introduction {
+    padding: 100px 0;
+}
+
+.c_head h2 {
+    text-align: center;
+    font-family: inter-ui-bold;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.c_head p {
+    font-family: inter-ui-regular;
+    font-size: 22px;
+}
+
+.into_image img {
+    width: 100%;
+}
+
+/* introduction sectioin end  */
+
+/* compare section start  */
+#compare {
+    background-image: url(../images/compare.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0 100px;
+}
+
+.c_head h3 {
+    font-family: inter-ui-bold;
+    font-size: 45px;
+    color: #0061f2;
+}
+
+/* compare section end  */
+/* business section start */
+#business {
+    padding: 100px 0 50px;
+}
+
+/* business section end  */
+
+/* compare2 section start   */
+
+#compare2 {
+    background-image: url(../images/compare2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+}
+
+.c_head p a {
+    font-style: italic;
+}
+
+/* compare2 section end   */
+
+/* risk section start  */
+#risk {
+    padding: 70px 0 30px;
+}
+
+/* risk section end  */
+
+/* risk2 section start  */
+#risk2 {
+    background-image: url(../images/risk.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+}
+
+/* risk2 section end  */
+
+/* outsourcing section start  */
+#outsourcing {
+    padding: 100px 0;
+}
+
+/* outsourcing section end  */
+
+/* outsourcing2 section start  */
+#outsourcing2 {
+    background-image: url(../images/outsourching.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0 70px;
+}
+
+/* outsourcing2 section end  */
+
+/* doing section start*/
+#doing {
+    padding: 150px 0;
+}
+
+.c_head p em {
+    color: #0061f2;
+}
+
+/* doing section end  */
